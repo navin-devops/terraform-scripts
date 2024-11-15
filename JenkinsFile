@@ -16,7 +16,7 @@ pipeline {
         stage('Terraform Init') {
             steps {
                 script {
-                    // Initialize Terraform 1
+                    // Initialize Terraform 2
                     sh 'terraform init'
                 }
             }
