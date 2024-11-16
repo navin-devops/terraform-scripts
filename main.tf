@@ -1,6 +1,5 @@
 # Configure the Google Cloud provider
 provider "google" {
-  credentials = file("C:/Users/sksus/Downloads/gleaming-lead-438006-g4-489a093cd328.json")
   project     = "gleaming-lead-438006-g4"
   region      = "us-central1"
 }
